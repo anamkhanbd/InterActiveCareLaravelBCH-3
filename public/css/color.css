@@ -17,3 +17,8 @@ a{
 a:hover{
     font-size: larger;
 }
+
+/* body data */
+.body-data{
+    min-height: 60vh;
+}

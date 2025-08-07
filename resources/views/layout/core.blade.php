@@ -49,6 +49,8 @@
       </nav>
     
 
-@yield('content')
+<div class="body-data">
+    @yield('content')
+</div>
 
 @include('layout.footer')
