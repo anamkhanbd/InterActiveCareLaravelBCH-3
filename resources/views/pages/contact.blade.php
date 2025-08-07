@@ -6,7 +6,7 @@
 
  @section('content')
      <h1 class="text-center">Contact pages </h1>
-     <p class="text-justify">
+     <p class="text-justify red">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non exercitationem ad temporibus debitis sint similique quisquam veritatis iste quam voluptatem, assumenda dolor explicabo libero quasi ea dicta, obcaecati optio incidunt. Suscipit quos iusto iste ipsum, magnam in praesentium reprehenderit dolorum adipisci assumenda veritatis maiores dolore impedit et laborum doloribus. Sit.
      </p>
  @endsection

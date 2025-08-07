@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.red{
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+    color: crimson;
+    transition: 0.5s all;
+}
+a:hover{
+    font-size: larger;
+}

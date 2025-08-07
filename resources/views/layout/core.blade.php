@@ -10,10 +10,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    {{-- Custom Css --}}
+    <link rel="stylesheet" href="{{ asset('css/color.css') }}">
   </head>
   <body>
       <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <a class="navbar-brand" href="{{route('index')}}">Laravel.app </a>
+        <a class="navbar-brand red" href="{{route('index')}}">Laravel.app </a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
