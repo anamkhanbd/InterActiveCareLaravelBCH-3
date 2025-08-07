@@ -41,7 +41,7 @@
                     </form>
                 </div>
                 <div class="card-footer text-center">
-                    Already have an account? <a href="#">Login</a>
+                    Already have an account? <a href="{{route('login')}}">Login</a>
                 </div>
             </div>
 

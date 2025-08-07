@@ -31,7 +31,9 @@ class PagesController extends Controller
 public function singup(){
     return view('pages.singup');
 }
-
+public function login(){
+    return view('pages.login');
+}
 
 
 

@@ -23,3 +23,18 @@ a:hover{
 .body-data{
     min-height: 60vh;
 }
+
+
+/* login pages */
+.login-container {
+      height: 100vh;
+    }
+    .login-form {
+      max-width: 400px;
+      width: 100%;
+      padding: 30px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    

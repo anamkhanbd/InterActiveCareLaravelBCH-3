@@ -13,4 +13,5 @@ Route::get('/Application', [PagesController::Class, 'application'])->name('appli
 
 //registration 
 Route::get('/singup', [PagesController::class, 'singup'])->name('singup');
+Route::get('/login', [PagesController::class, 'login'])->name('login');
 
