@@ -15,3 +15,5 @@ Route::get('/Application', [PagesController::Class, 'application'])->name('appli
 Route::get('/singup', [PagesController::class, 'singup'])->name('singup');
 Route::get('/login', [PagesController::class, 'login'])->name('login');
 
+//POST MEthod
+Route::post('/singup', [PagesController::class, 'dataSingUp'])->name('singup.post');

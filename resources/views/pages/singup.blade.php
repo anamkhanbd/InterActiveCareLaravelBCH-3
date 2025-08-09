@@ -14,7 +14,7 @@
                     <h4>Register</h4>
                 </div>
                 <div class="card-body">
-                    <form action="#" method="POST">
+                    <form action="{{route('singup.post')}}" method="POST">
                         @csrf
                         
                         <div class="form-group">

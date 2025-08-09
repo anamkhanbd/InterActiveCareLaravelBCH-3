@@ -16,7 +16,16 @@ class PagesController extends Controller
     }
 
     public function design(){
-        return view('pages.webDesign');
+        $contexts = [
+            'colors' => ['blue','red','green'],
+            'fruits' => ['apple','banana','orange'],
+
+        //end     
+        ];
+        return view('pages.webDesign', [
+            'colors' => $contexts['colors'],
+            'fruits' => $contexts['fruits']
+        ]);
     }
 
     public function development(){
@@ -33,6 +42,19 @@ public function singup(){
 }
 public function login(){
     return view('pages.login');
+}
+
+//POST Method for Singup
+public function dataSingUp(Request $request){
+    // Validate the request data
+    $request->validate([
+        'name' => 'required|string|max:255',
+        'email' => 'required|string|email|max:255|unique:users',
+        'password' => 'required|string|min:8|confirmed',
+    ]);
+
+    dd($request->all());
+    // return redirect()->route(route: 'login');
 }
 
 
